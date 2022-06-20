@@ -35,7 +35,7 @@ local preset = {
 	-- Function to run when the download completes
 	done = function()
 		term.clear() term.setCursorPos(1,1)
-		shell.run(path.."/setup")
+		shell.run(nodequarry.."/setup")
 	end
 }
 
